@@ -1,5 +1,6 @@
 {
     "name": "crossbones/about-time",
+    "description": "To Make Easier DateTime Operations And Actions",
     "minimum-stability": "dev",
     "authors": [
         {
@@ -11,14 +12,18 @@
         "date",
         "time",
         "period",
-        "date-time"
+        "date-time",
         "schedule"
     ],
-    "require": {},
+    "require": {
+        "php" : "^7.1"
+    },
     "autoload": {
         "psr-4": {
             "App\\" : "app/",
             "CrossBones\\AboutTime\\": "/src"
         }
+    },
+    "extra": {
     }
 }
