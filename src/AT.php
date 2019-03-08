@@ -18,7 +18,7 @@ class AT
 {
     /** @var int $dateTime */
     private $dateTime;
-
+    
     /**
      * AT constructor.
      * @param string|null $dateTime
@@ -26,7 +26,6 @@ class AT
     public function __construct($dateTime = null)
     {
         $this->dateTime = $dateTime;
-
     }
 
     /**
